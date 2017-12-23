@@ -1,0 +1,146 @@
+
+body {
+    background-color: #FCFCFC;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #FCFCFC;
+    box-shadow: 0px 15px 20px 0px rgba(252, 252, 252, 1);
+}
+
+.navbar img {
+    margin-right: .5em;
+}
+
+.nav .nav-link.active {
+    color: rgba(0,0,0,.9);
+}
+
+.nav .nav-link {
+    color: rgba(0,0,0,.5);
+    transition: opacity 0.2s ease;
+}
+
+.nav .nav-link:hover, div.item > a:hover {
+    opacity: 0.6;
+}
+
+.nav {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+#site-title {
+    font-weight: 300;
+}
+
+@media (max-width: 500px) {
+    #site-title {
+        display: none;
+    }
+}
+
+.spacer {
+    margin-top: 3rem;
+}
+
+.large-spacer {
+    margin-top: 5rem;
+}
+
+.small-spacer {
+    margin-top: 1rem;
+}
+
+.display-4 {
+    font-size: 3.2rem;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    color: #4B4F56;
+    background-color: white;
+    margin: 0 auto;
+    height: 415px;
+}
+    
+.card:hover {
+    box-shadow: 0 40px 40px rgba(0,0,0,.16);
+    transform: translate(0,-20px);
+    transition-delay: 0s !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body h6 {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.card-body h4 {
+    font-weight: 700;
+    color: #222;
+}
+
+.card-text {
+    color: #818182;
+}
+
+a.clickable-card:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-space .col-md {
+    height: 480px;
+}
+
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .display-4 {
+        font-size: 3.0rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .display-4 {
+        font-size: 2.7rem;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .display-4 {
+        font-size: 2.3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 720px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 720px !important;
+    }
+}
