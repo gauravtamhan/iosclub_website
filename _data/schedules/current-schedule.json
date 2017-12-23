@@ -1,7 +1,6 @@
 {
     "semester": "Fall 2017",
-    "months": "August - December",
-    "meetings-col-1": [
+    "meetings": [
         {
             "date": "08/29",
             "subject": "Tap Game",
@@ -46,9 +45,7 @@
             "date": "10/24",
             "subject": "Pin Drop",
             "description": "Data Persistence & MapKit" 
-        }
-    ],
-    "meetings-col-2": [
+        },
         {
             "date": "10/31",
             "subject": "Tunes App",
