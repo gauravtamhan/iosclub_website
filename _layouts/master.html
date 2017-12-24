@@ -11,20 +11,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style-1.css">
-  <!-- {% if page.permalink == "/schedule/" %} -->
+  {% if page.url contains "part" or page.url contains "tutorials" %}
+  <link rel="stylesheet" href="../css/style-2.css">
+  {% elsif page.url contains "schedule" %}
   <link rel="stylesheet" href="../css/style-2.css">
   <link rel="stylesheet" href="../css/style-3.css">
-  <!-- {% endif %} -->
+  {% endif %}
+
  
 </head>
 
 <body>
-  <!-- {{ page.url }} -->
   {% if page.url contains "schedule" %}
   {% include top-navigation.html schedule="active" tutorial="" %}
-  {% elsif page.url contains "tutorials" %}
+  {% elsif page.url contains "tutorials" or page.url contains "part" %}
   {% include top-navigation.html schedule="" tutorial="active" %}
-  {% elsif page.url == "/"%}
+  {% else %}
   {% include top-navigation.html schedule="" tutorial="" %}
   {% endif %}
 
@@ -43,6 +45,8 @@
     <!-- Optional JavaScript -->
   {% if page.permalink contains "schedule" %}
   <script type="text/javascript" src="../js/adjust-calendar-view.js"></script>
+  {% elsif page.permalink contains "part" %}
+  <script type="text/javascript" src="../js/tutorial-page-adjustments.js"></script>
   {% endif %}
 
 </body>

@@ -1,0 +1,23 @@
+
+<div id="masterAccordion" data-children=".item" class="side-nav">
+    {% assign num = 1 %}
+    {% for tut in site.data.tutorials.side-nav %}
+    <div class="item">
+        <a data-toggle="collapse" data-parent="#masterAccordion" href="#accordion-{{ num }}" aria-expanded="true" aria-controls="accordion-{{ num }}">
+            {{ tut.tutorial_title }}
+        </a>
+        <div id="accordion-{{ num }}" class="collapse" role="tabpanel">
+            <nav class="nav flex-column">
+                {% for entry in tut.folderitems %}
+                {% if page.url == entry.page_url %}
+                <a class="nav-link active" href="{{entry.page_url}}">{{ entry.page_title }}</a>
+                {% else %}
+                <a class="nav-link" href="{{entry.page_url}}">{{ entry.page_title }}</a>
+                {% endif %}
+                {% endfor %}
+            </nav>
+        </div>
+    </div>
+    {% assign num = num | plus: 1 %}
+    {% endfor %}
+</div>
