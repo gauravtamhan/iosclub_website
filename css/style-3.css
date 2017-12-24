@@ -25,6 +25,22 @@ ul.calender li {
     opacity: 0.4;
 }
 
+#schedule-menu a {
+    color: rgb(247, 57, 48);
+}
+
+a.cal {
+    cursor: pointer;
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    #schedule-menu {
+        display: none;
+    }
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
     h3.text-right {

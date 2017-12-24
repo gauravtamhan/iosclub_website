@@ -14,5 +14,10 @@ $( document ).ready(function() {
             colOne.next().append("<ul class='calender'></ul>");
             secondSet.appendTo(colOne.next().children().first());
     })
-    
+
+})
+
+$("a.cal").click(
+    function() {
+        $(window).scrollTo(document.getElementById('pastSemester'), 800);
 })
