@@ -27,4 +27,4 @@ Click "Next", and then save the project anywhere you want to on your computer:
 
 Now you have successfully created your new project on Xcode! In the next part, we will actually be creating the interface for the Guess the Number game.
 
-[](guess-the-number-part-2)
+[]({{ site.baseurl }}{% link tutorials/guess-the-number/part1.md %})
