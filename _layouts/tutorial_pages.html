@@ -2,9 +2,27 @@
 layout: master
 ---
 
-<div class="container" style="margin-top:calc(72px + 2rem);">
+<nav class="navbar second-nav fixed-top">
+    <div class="container">
+        <a class="navbar-brand" data-toggle="collapse" href="#nav-collapse" aria-expanded="false" aria-controls="#nav-collapse">Tutorials</a>
+        <!-- <div class="nav justify-content-end">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse">+</button>
+        </div> -->
+    </div>
+</nav>
+<div class="second-nav-collapsible">
+    <div class="collapse" id="nav-collapse">
+        <div class="container">
+            {% include tutorial-dropdown.html %}
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container top-space-on-fixed">
     <div class="row spacer">
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-menu">
             <h1 class="display-4 page-header">Tutorials</h1>
             {% include tutorial-nav.html %}
         </div>

@@ -1,6 +1,6 @@
 
 <div id="masterAccordion" data-children=".item" class="side-nav">
-    {% assign num = 1 %}
+    {% assign num = 0 %}
     {% for tut in site.data.tutorials.side-nav %}
     <div class="item">
         <a data-toggle="collapse" data-parent="#masterAccordion" href="#accordion-{{ num }}" aria-expanded="true" aria-controls="accordion-{{ num }}">
@@ -18,6 +18,6 @@
             </nav>
         </div>
     </div>
-    {% assign num = num | plus: 1 %}
+    {% assign num = num | plus: 2 %}
     {% endfor %}
 </div>

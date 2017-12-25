@@ -105,6 +105,12 @@ a.clickable-card:hover {
     height: 480px;
 }
 
+.top-space-on-fixed {
+    margin-top: calc(72px + 2rem);
+}
+
+
+
 
 
 /* Large devices (desktops, less than 1200px) */
@@ -117,6 +123,47 @@ a.clickable-card:hover {
     .display-4 {
         font-size: 3.0rem;
     }
+
+    .navbar {
+        box-shadow: none !important;
+        border-bottom: 1px solid rgba(0,0,0,.12) !important;
+    }
+
+    .fixed-top {
+        position: initial;
+    }
+
+    .top-space-on-fixed {
+        margin-top: 0;
+    }
+
+    .second-nav {
+        padding: 0.5rem 0;
+        display: flex;
+    }
+    
+    .second-nav .navbar-brand {
+        font-weight: 700;
+        color: rgba(0,0,0,.9);
+        transition: opacity 0.2s ease;
+    }
+
+    .second-nav .navbar-brand:hover {
+        opacity: 0.6;
+    }
+
+    #nav-collapse {
+        border-bottom: 1px solid rgba(0,0,0,.12)
+    }
+
+    .side-menu {
+        display: none;
+    }
+
+    .second-nav-collapsible {
+        display: block;
+    }
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -133,6 +180,7 @@ a.clickable-card:hover {
     }
 }
 
+/* Extra large devices (greater than 1200px) */
 @media (min-width: 1200px) {
     .container {
         max-width: 720px !important;
@@ -142,5 +190,17 @@ a.clickable-card:hover {
 @media (min-width: 992px) {
     .container {
         max-width: 720px !important;
+    }
+
+    .second-nav {
+        display: none;
+    }
+
+    .side-menu {
+        display: initial;
+    }
+
+    .second-nav-collapsible {
+        display: none;
     }
 }
