@@ -96,6 +96,18 @@ div.item > a{
     transform: rotate(180deg);
 }
 
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin-top: 2.8rem;
+}
+
+.post-content img {
+    padding: 1rem 0;
+}
+
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199px) {
 
@@ -113,6 +125,10 @@ div.item > a{
     .display-4 {
         font-size: 2.7rem;
     }
+
+    .post-content img {
+        max-width: 100% !important;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -123,6 +139,11 @@ div.item > a{
 }
 
 
+@media (min-width: 768px) {
+    .post-content img {
+        max-width: 75% !important;
+    }
+}
 
 @media (min-width: 992px) {
     .container {
