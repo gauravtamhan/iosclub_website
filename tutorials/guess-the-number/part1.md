@@ -2,7 +2,7 @@
 layout: tutorial_pages
 part: 1
 title: Getting Started
-permalink: guess-the-number-part-1
+permalink: /guess-the-number-part-1/
 ---
 
 This tutorial will teach you how to build a Guess the Number game through the use of Interface builder and Storyboards!
