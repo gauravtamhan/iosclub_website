@@ -80,9 +80,20 @@ div.item > a{
     padding: .5rem 0;
 }
 
-#expand-icon {
+#expand-icon > i {
     color: rgba(0,0,0,.9);
     text-decoration: none;
+    padding: 0 0.3rem;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#expand-icon > i.clicked {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 /* Large devices (desktops, less than 1200px) */
