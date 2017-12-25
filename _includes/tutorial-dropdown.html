@@ -11,7 +11,7 @@
                     {% if page.url == entry.page_url %}
                     <a class="nav-link active" href="{{ site.baseurl }}{{ entry.page_url }}">{{ entry.page_title }}</a>
                     {% else %}
-                    <a class="nav-link" href="{{ site.baseurl }}{{ entry.page_url }}">{{ page.url }}</a>
+                    <a class="nav-link" href="{{ site.baseurl }}{{ entry.page_url }}">{{ entry.page_title }}</a>
                     {% endif %}
                     {% endfor %}
                 </nav>

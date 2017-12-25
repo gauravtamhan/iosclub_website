@@ -3,47 +3,47 @@
 - tutorial_title: Guess the Number
   folderitems:
   - page_title: Part 1 - Getting Started
-    page_url: /guess-the-number-part-1
+    page_url: /guess-the-number-part-1/
   - page_title: Part 2 - Setting up your View
-    page_url: /guess-the-number-part-2
+    page_url: /guess-the-number-part-2/
   - page_title: Part 3- Generate Random Numbers
-    page_url: /guess-the-number-part-3
+    page_url: /guess-the-number-part-3/
   - page_title: Part 4 - Writing the Game Logic
-    page_url: /guess-the-number-part-4
+    page_url: /guess-the-number-part-4/
   - page_title: Part 5 - Adding Alerts
-    page_url: /guess-the-number-part-5
+    page_url: /guess-the-number-part-5/
   - page_title: Part 6 - Pushing to GitHub
-    page_url: /guess-the-number-part-6
+    page_url: /guess-the-number-part-6/
 
 - tutorial_title: About Me
   folderitems:
   - page_title: Part 1 - Introduction to Autolayout
-    page_url: /about-me-part-1
+    page_url: /about-me-part-1/
   - page_title: Part 2 - Setting up your Xcode Project
-    page_url: /about-me-part-2
+    page_url: /about-me-part-2/
   - page_title: Part 3 - Designing the first View Controller
-    page_url: /about-me-part-3
+    page_url: /about-me-part-3/
   - page_title: Part 4 - Segues and Navigation Bars
-    page_url: /about-me-part-4
+    page_url: /about-me-part-4/
   - page_title: Part 5 - Stack Views
-    page_url: /about-me-part-5
+    page_url: /about-me-part-5/
 
 - tutorial_title: Scorekeeper
   folderitems:
   - page_title: Part 1 - Creating your Xcode Project
-    page_url: "/table-view-part-1"
+    page_url: /table-view-part-1/
   - page_title: Part 2 - Setting up your Table View in Interface Builder
-    page_url: "/table-view-part-2"
+    page_url: /table-view-part-2/
   - page_title: Part 3 - Setting up your Custom Table View Cell
-    page_url: "/table-view-part-3"
+    page_url: /table-view-part-3/
   - page_title: Part 4 - Implementing your Table View Delegate
-    page_url: "/table-view-part-4"
+    page_url: /table-view-part-4/
   - page_title: Part 5 - Subclassing UITableViewCell
-    page_url: "/table-view-part-5"
+    page_url: /table-view-part-5/
   - page_title: Part 6 - Populating your Table View Cells
-    page_url: "/table-view-part-6"
+    page_url: /table-view-part-6/
   - page_title: Part 7 - Adding User Interaction
-    page_url: "/table-view-part-7"
+    page_url: /table-view-part-7/
 
 - tutorial_title: Weather
   folderitems:
