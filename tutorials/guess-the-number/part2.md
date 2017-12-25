@@ -1,6 +1,6 @@
 ---
 layout: tutorial_pages
-part: 1
+part: 2
 title: Setting Up Your View
 permalink: /guess-the-number-part-2/
 ---
