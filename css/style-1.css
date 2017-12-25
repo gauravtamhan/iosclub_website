@@ -145,13 +145,12 @@ a.clickable-card:hover {
     .second-nav .navbar-brand {
         font-weight: 700;
         color: rgba(0,0,0,.9);
-        transition: opacity 0.2s ease;
-        width: 100%;
+        /* transition: opacity 0.2s ease; */
     }
 
-    .second-nav .navbar-brand:hover {
+    /* .second-nav .navbar-brand:hover {
         opacity: 0.6;
-    }
+    } */
 
     #nav-collapse {
         border-bottom: 1px solid rgba(0,0,0,.12)
