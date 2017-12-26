@@ -51,6 +51,11 @@ body {
     }
 }
 
+.fixed-top {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
 .spacer {
     margin-top: 3rem;
 }
@@ -115,7 +120,7 @@ a.clickable-card:hover {
 }
 
 .top-space-on-fixed {
-    margin-top: 73px;
+    /* margin-top: 73px; */
 }
 
 .error-page {
