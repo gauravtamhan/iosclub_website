@@ -95,4 +95,4 @@ Then go to the  **Attributes tab** for the text field and scroll until you find 
 
 Awesome! Now we have added connections for both the label and the text field to Swift code! In the next part, we will be adding some functionality for generating a random number to guess, and we will also be connecting the button to the code.
 
-[]({{ site.baseurl }}{% link tutorials/guess-the-number/part2.md %})
+[]({{ site.baseurl }}{% link tutorials/guess-the-number/part3.md %})

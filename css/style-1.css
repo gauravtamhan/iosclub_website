@@ -4,6 +4,15 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.post-content a {
+    transition: opacity 0.2s ease;
+}
+
+.post-content a:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
 .navbar {
     padding: 1rem;
     background-color: #FCFCFC;
@@ -109,8 +118,20 @@ a.clickable-card:hover {
     margin-top: calc(72px + 2rem);
 }
 
+.error-page {
+    background: -webkit-linear-gradient(75deg, #ccc 5%,#ffffff 100%);
+    background-attachment: fixed;
+}
 
+.error-page nav {
+    background-color: transparent;
+    box-shadow: none;
+}
 
+.poo {
+    /* box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.2); */
+    max-width: 30%;
+}
 
 
 /* Large devices (desktops, less than 1200px) */
