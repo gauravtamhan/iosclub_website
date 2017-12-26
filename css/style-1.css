@@ -16,7 +16,7 @@ body {
 .navbar {
     padding: 1rem;
     background-color: #FCFCFC;
-    box-shadow: 0px 15px 20px 0px rgba(252, 252, 252, 1);
+    border-bottom: 1px solid rgba(0,0,0,.12);
 }
 
 .navbar img {
@@ -115,7 +115,7 @@ a.clickable-card:hover {
 }
 
 .top-space-on-fixed {
-    margin-top: calc(72px + 2rem);
+    margin-top: 73px;
 }
 
 .error-page {
@@ -145,10 +145,10 @@ a.clickable-card:hover {
         font-size: 3.0rem;
     }
 
-    .navbar {
+    /* .navbar {
         box-shadow: none !important;
         border-bottom: 1px solid rgba(0,0,0,.12) !important;
-    }
+    } */
 
     .fixed-top {
         position: initial;

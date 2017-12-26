@@ -24,14 +24,16 @@ layout: master
 
 
 
-<div class="container top-space-on-fixed">
-    <div class="row spacer">
+<div class="container my-fluid-container top-space-on-fixed">
+    <div class="row">
         <div class="col-lg-3 side-menu">
-            <h1 class="display-4 page-header">Tutorials</h1>
-            {% include tutorial-sidenav.html %}
+            <h1 class="page-header">Tutorials</h1>
+            <div class="side-nav-box">
+                {% include tutorial-sidenav.html %}
+            </div>
         </div>
-        <div class="col-lg-8 offset-lg-1">
-            <div class="post-header">
+        <div class="col-lg-9">
+            <div class="post-header spacer">
                 <h6 class="sub-heading">Part {{ page.part }}</h6>
                 <h1 class="heading">{{ page.title }}</h1>
             </div>
