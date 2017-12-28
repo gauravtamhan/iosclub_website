@@ -262,6 +262,54 @@ img.devices {
     padding-left: 15px;
 }
 
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+.copyright {
+    margin: 34px 0;
+    margin-left: 12px;
+    display: inline-block;
+    color: #90949C;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.footer p a {
+    color: #4B4F56;
+}
+
+.footer p a:hover {
+    text-decoration: none;
+}
+
+.seal {
+    width: 80px;
+    display: inline-block;
+}
+
+.icons {
+    text-align: right;
+    margin: 24px 0;
+}
+
+.icons a {
+    display: inline-block;
+    margin: 0 .7rem;
+    padding: 4px;
+    transition: opacity 0.2s ease;
+}
+
+.icons a:hover {
+    opacity: 0.7;
+}
+
+.icons a img {
+    width: 25px;
+}
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199px) {
@@ -343,6 +391,20 @@ img.devices {
     }
 
     .team {
+        text-align: center;
+    }
+
+    .icons {
+        text-align: center;
+    }
+
+    .official {
+        text-align: center;
+    }
+
+    .copyright {
+        display: block;
+        margin-left: 0;
         text-align: center;
     }
 
