@@ -28,7 +28,7 @@
   <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
 </head>
 
-<body class="{% if page.permalink contains 404 %} error-page {% endif %}">
+<body>
   {% if page.url contains "schedule" %}
     {% include top-navigation.html schedule="active" tutorial="" %}
   {% elsif page.url contains "tutorials" or page.url contains "part" %}
