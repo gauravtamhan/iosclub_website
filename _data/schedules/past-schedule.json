@@ -4,82 +4,98 @@
             "semester": "Spring 2017",
             "meetings": [
                 {
-                    "date": "01/17",
+                    "month": 1,
+                    "day": 17,
                     "subject": "Tap Game",
                     "description": "Introduction to iOS" 
                 },
                 {
-                    "date": "01/24",
+                    "month": 1,
+                    "day": 24,
                     "subject": "No Meeting",
                     "description": "" 
                 },
                 {
-                    "date": "01/31",
+                    "month": 1,
+                    "day": 31,
                     "subject": "About Me App",
                     "description": "Autolayout, Tab Bars, and Navigation Controllers" 
                 },
                 {
-                    "date": "02/07",
+                    "month": 2,
+                    "day": 7,
                     "subject": "Reminders App",
                     "description": "Table Views" 
                 },
                 {
-                    "date": "02/14",
+                    "month": 2,
+                    "day": 14,
                     "subject": "Tech Talk hosted by MailChimp",
                     "description": "Intro to Core Data" 
                 },
                 {
-                    "date": "02/21",
+                    "month": 2,
+                    "day": 21,
                     "subject": "Places I’ve Been App",
                     "description": "MapKit and CoreData" 
                 },
                 {
-                    "date": "02/28",
+                    "month": 2,
+                    "day": 28,
                     "subject": "Chat App",
                     "description": "Firebase" 
                 },
                 {
-                    "date": "03/07",
+                    "month": 3,
+                    "day": 7,
                     "subject": "Photos App",
                     "description": "Collection Views and Photos Framework" 
                 },
                 {
-                    "date": "03/14",
+                    "month": 3,
+                    "day": 14,
                     "subject": "Flappy Buzz",
                     "description": "SpriteKit Crash Course" 
                 },
                 {
-                    "date": "03/21",
+                    "month": 3,
+                    "day": 21,
                     "subject": "No Meeting",
                     "description": "Spring Break" 
                 },
                 {
-                    "date": "03/28",
+                    "month": 3,
+                    "day": 28,
                     "subject": "Build Your Own App",
                     "description": "Special Challenge" 
                 },
                 {
-                    "date": "04/04",
+                    "month": 4,
+                    "day": 4,
                     "subject": "Build Your Own App",
                     "description": "Special Challenge"  
                 },
                 {
-                    "date": "04/11",
+                    "month": 4,
+                    "day": 11,
                     "subject": "Build Your Own App Session",
                     "description": "" 
                 },
                 {
-                    "date": "04/18",
+                    "month": 4,
+                    "day": 18,
                     "subject": "Demo Day",
                     "description": "" 
                 },
                 {
-                    "date": "04/25",
+                    "month": 4,
+                    "day": 25,
                     "subject": "No Meeting",
                     "description": "Finals Week"  
                 },
                 {
-                    "date": "05/02",
+                    "month": 5,
+                    "day": 2,
                     "subject": "No Meeting",
                     "description": "Finals Week"  
                 }
@@ -89,82 +105,98 @@
             "semester": "Fall 2016",
             "meetings": [
                 {
-                    "date": "08/30",
+                    "month": 8,
+                    "day": 30,
                     "subject": "Introduction",
                     "description": "" 
                 },
                 {
-                    "date": "09/06",
+                    "month": 9,
+                    "day": 6,
                     "subject": "Guessing App",
                     "description": "" 
                 },
                 {
-                    "date": "09/13",
+                    "month": 9,
+                    "day": 13,
                     "subject": "AirWatch Presentation",
                     "description": "Optionals" 
                 },
                 {
-                    "date": "09/20",
+                    "month": 9,
+                    "day": 20,
                     "subject": "No Meeting",
                     "description": "Career Fair Week" 
                 },
                 {
-                    "date": "09/27",
+                    "month": 9,
+                    "day": 27,
                     "subject": "Calculator App",
                     "description": "" 
                 },
                 {
-                    "date": "10/04",
+                    "month": 10,
+                    "day": 4,
                     "subject": "ScoreKeeper App",
                     "description": "MapKit and CoreData" 
                 },
                 {
-                    "date": "10/11",
+                    "month": 10,
+                    "day": 11,
                     "subject": "No Meeting",
                     "description": "Student Recess" 
                 },
                 {
-                    "date": "10/18",
+                    "month": 10,
+                    "day": 18,
                     "subject": "Notes App",
                     "description": "Part 1" 
                 },
                 {
-                    "date": "10/25",
+                    "month": 10,
+                    "day": 25,
                     "subject": "Notes App",
                     "description": "Part 2"  
                 },
                 {
-                    "date": "11/01",
+                    "month": 11,
+                    "day": 1,
                     "subject": "Notes App",
                     "description": "Part 3"  
                 },
                 {
-                    "date": "11/08",
+                    "month": 11,
+                    "day": 8,
                     "subject": "Weather App",
                     "description": "Part 1" 
                 },
                 {
-                    "date": "11/15",
+                    "month": 11,
+                    "day": 15,
                     "subject": "Weather App",
                     "description": "Part 2"  
                 },
                 {
-                    "date": "11/22",
+                    "month": 11,
+                    "day": 22,
                     "subject": "No Meeting",
                     "description": "Thanksgiving Break" 
                 },
                 {
-                    "date": "11/29",
+                    "month": 11,
+                    "day": 29,
                     "subject": "Ice Cream App",
                     "description": "Showcase" 
                 },
                 {
-                    "date": "12/06",
+                    "month": 12,
+                    "day": 6,
                     "subject": "No Meeting",
                     "description": "Dead Week"  
                 },
                 {
-                    "date": "12/13",
+                    "month": 12,
+                    "day": 13,
                     "subject": "No Meeting",
                     "description": "Finals Week"  
                 }
