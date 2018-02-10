@@ -1,17 +1,14 @@
 --- 
 layout: master
 ---
-<nav class="navbar second-nav fixed-top">
-    <div class="container">
-        <a class="navbar-brand">{{ page.title }}</a>
-       
-    </div>
-</nav>
 
 <div class="container">
     <div class="row">
         <!-- Repeat structure below for second calender -->
         <div class="post-header spacer">
+            <!-- <div class="options nav">
+                <a class="past-cal nav-link">View Past Semesters</a>
+            </div> -->
             <h6 class="sub-heading">
                 {% if site.data.schedules.current-schedule.semester contains "Fall" %} August - December {% elsif site.data.schedules.current-schedule.semester
                 contains "Spring" %} January - May {% endif %}

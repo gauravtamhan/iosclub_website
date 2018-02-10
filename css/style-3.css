@@ -48,9 +48,15 @@ ul.calender li {
     color: rgb(247, 57, 48);
 }
 
-a.cal {
-    cursor: pointer;
+/* .options {
+    justify-content: flex-end;
+    padding-bottom: 1.5rem;
 }
+
+.options a {
+    cursor: pointer;
+    font-size: 0.8rem;
+} */
 
 .post-header {
     margin-left: auto;

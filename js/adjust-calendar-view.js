@@ -17,7 +17,7 @@ $( document ).ready(function() {
 
 })
 
-$("a.cal").click(
+$(".options a").click(
     function() {
         $(window).scrollTo(document.getElementById('pastSemester'), 800);
 })

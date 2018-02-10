@@ -331,9 +331,9 @@ img.devices {
         border-bottom: 1px solid rgba(0,0,0,.12) !important;
     } */
 
-    .fixed-top {
+    /* .fixed-top {
         position: initial;
-    }
+    } */
 
     .top-space-on-fixed {
         margin-top: 0;
