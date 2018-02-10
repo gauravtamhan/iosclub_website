@@ -10,7 +10,7 @@ $( document ).ready(function() {
             var val = Math.floor(l / 2.2);
             var secondSet = colOne.children().first().children().slice(-val);
     
-            colOne.after("<div class='col-xl'></div>");
+            colOne.after("<div class='col-md'></div>");
             colOne.next().append("<ul class='calender'></ul>");
             secondSet.appendTo(colOne.next().children().first());
     })
