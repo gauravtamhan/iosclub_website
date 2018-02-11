@@ -35,7 +35,7 @@ body {
     transition: opacity 0.2s ease;
 }
 
-.nav .nav-link:hover, div.item > a:hover {
+.nav .nav-link:hover {
     opacity: 0.6;
 }
 
