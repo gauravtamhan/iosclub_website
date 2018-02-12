@@ -14,7 +14,7 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
-::-webkit-scrollbar {
+.side-nav-box::-webkit-scrollbar {
     height: 8px;
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */

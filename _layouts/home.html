@@ -2,56 +2,47 @@
 layout: master
 ---
 
-<div class="container top-space-on-fixed">
-    <div class="row med-spacer">
-        <div class="col intro">
-            <h1>What's on our mind?</h1>
-            <h4>Dedication to building a community of iOS developers at Georgia Tech.</h4>
-        </div>
-    </div>
-    <div class="row spacer card-space">
-        <div class="col-md">
-            <a class="clickable-card" href="{{ site.baseurl }}/schedule/">
-                <div class="card" style="width: 20rem">
-                    <img class="card-img-top" src="{{ site.baseurl }}/images/home/cal.png">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted text-uppercase">Save the Date</h6>
-                        <h4 class="card-title">Learn Something New</h4>
-                        <p class="card-text small-spacer">Want to know when the next meeting is? View the schedule for information on all events and activities.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-md">
-            <a class="clickable-card" href="https://www.facebook.com/groups/iosgatech/" target="_blank">
-                <div class="card" style="width: 20rem">
-                    <img class="card-img-top" src="{{ site.baseurl }}/images/home/facebook.jpg">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted text-uppercase">Get Social</h6>
-                        <h4 class="card-title">Join the Facebook
-                            <br> Group</h4>
-                        <p class="card-text small-spacer">For all the latest news and updates about club meetings and events follow us on Facebook.</p>
-                    </div>
-                </div>
-            </a>
+<div class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <img class="devices" src="{{ site.baseurl }}/images/home/devices_watch.png">
+            </div>
+            <div class="col-lg-4 opener">
+                <h1>Building a community of developers.</h1>
+                <p>We support our members through a strong curriculum spanning iOS development and design. After just one semester, our members go on to develop their own
+                    apps and receive internships in the industry.</p>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="bg large-spacer">
+<div class="bg ">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <img class="devices" src="{{ site.baseurl }}/images/home/devices_watch.png">
+        <div class="row info">
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/zuck.png"/>
+                    <h1>Get social.</h1>
+                    <p>Join our Facebook group to connect with club officers and fellow club attendees. It's also the best resource for all the latest news about club meetings.</p>
+                    <a href="{{ site.facebook_url }}" onclick="openFacebook(); return false;" target="_blank">Click to View &rsaquo;</a>
+                </div>
             </div>
-        </div>
-        <div class="row med-spacer">
-            <div class="col about-us">
-                <h1>About Us</h1>
-                <h4>We support our members through a strong curriculum spanning iOS development and design. We host beginner-friendly
-                    meetings every
-                    <span style="color:#1D2129; font-weight:500;">Tuesday at 6:00pm in Klaus 1456.</span> After just one semester, our members go on to develop their own
-                    apps and receive internships in the industry.</h4>
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/learn.png"/>
+                    <h1>Get involved.</h1>
+                    <p>We host beginner friendly meetings every Tuesday at 6:00pm in Klaus 1456. For more information on event dates and activities view the schedule.</p>
+                    <a href="{{ site.baseurl }}/schedule/">Click to View &rsaquo;</a>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/app-store.png"/>
+                    <h1>Get started.</h1>
+                    <p>View the tutorials page for detailed, step-by-step guides on how to create your own apps. All of the code is up on our GitHub repo as well.</p>
+                    <a href="{{ site.baseurl }}{{site.data.tutorials.side-nav.first.folderitems.first.page_url}}">Click to View &rsaquo;</a>
+                </div>
             </div>
         </div>
     </div>
