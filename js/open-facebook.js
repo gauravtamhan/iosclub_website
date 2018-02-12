@@ -11,7 +11,5 @@ function openFacebook() {
         //     window.location = url;
         // }, 5);
         window.location = appUri;
-    } else {
-        window.open(url);
     }
 }
