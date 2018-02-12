@@ -7,9 +7,9 @@ function openFacebook() {
     var appUri = "{{ site.facebook_ios_uri }}";
 
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        setTimeout(function () {
-            window.location = url;
-        }, 5);
+        // setTimeout(function () {
+        //     window.location = url;
+        // }, 5);
         window.location = appUri;
     } else {
         window.open(url);
