@@ -202,7 +202,7 @@ body .bg:nth-child(n+3) {
 .bg {
     /* background-color: rgb(245, 245, 245); */
     /* border-top: 1px solid rgba(0,0,0,.12); */
-    padding: 8rem 0 6rem;
+    padding: 6rem 0 6rem;
     /* box-shadow: inset 0px 1px 30px rgba(0,0,0,.1) */
 }
 
@@ -231,6 +231,10 @@ body .bg:nth-child(n+3) {
     /* line-height: 1.38105; */
     font-weight: 400;
     color: #111;
+}
+
+.no-mar {
+    margin-bottom: 0;
 }
 
 .info p {
@@ -283,7 +287,7 @@ body .bg:nth-child(n+3) {
 /* Smaller devices (custom cutoff) */
 @media (max-width: 475px) {
     .bg {
-        padding: 6rem 0 4rem;
+        padding: 4.8rem 0 4.8rem;
     }
 
     .opener h1 {
@@ -325,13 +329,32 @@ body .bg:nth-child(n+3) {
     border-top: none;
 }
 
-.logos .col-sm, .logos .col {
+/* .logos .col-sm, .logos .col {
     text-align: center;
-}
+} */
 
 .logos img {
-    padding: 1rem 0;
-    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 90%;
+    max-width: 200px;
+}
+
+.ty h1 {
+    margin-top: 0;
+}
+
+.carousel-indicators {
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+.carousel-indicators li {
+    background-color: #d6d6d6;
+}
+
+.carousel-indicators .active {
+    background-color: #666;
 }
 
 .contact img {
@@ -554,10 +577,10 @@ body .bg:nth-child(n+3) {
         font-size: 2.2rem;
     } */
 
-    .logos img {
+    /* .logos img {
         padding: 2rem 0;
         max-width: 98%;
-    }
+    } */
 
     .logos {
         /* margin-top: 0; */

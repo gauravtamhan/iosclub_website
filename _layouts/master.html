@@ -59,6 +59,10 @@
   <script type="text/javascript" src="{{ site.baseurl }}/js/tutorial-page-adjustments.js"></script>
   {% endif %}
 
+  {% unless page.permalink contains "schedule" or page.permalink contains "part" %}
+  <script type="text/javascript" src="{{ site.baseurl }}/js/homepage-carousel.js"></script>
+  {% endunless %}
+
 </body>
 
 </html>
