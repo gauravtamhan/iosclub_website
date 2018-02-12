@@ -258,7 +258,7 @@ body .bg:nth-child(n+3) {
     }
 
     .info .col-lg:not(:last-child) {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 }
 
