@@ -1,6 +1,101 @@
 {
     "past-meetings": [
         {
+            "semester": "Fall 2017",
+            "meetings": [
+                {
+                    "month": 8,
+                    "day": 29,
+                    "subject": "Tap Game",
+                    "description": "Introduction to iOS development - Part 1" 
+                },
+                {
+                    "month": 9,
+                    "day": 5,
+                    "subject": "Guess the Number",
+                    "description": "Introduction to iOS development - Part 2" 
+                },
+                {
+                    "month": 9,
+                    "day": 12,
+                    "subject": "Meeting Canceled",
+                    "description": "" 
+                },
+                {
+                    "month": 9,
+                    "day": 19,
+                    "subject": "About Me",
+                    "description": "Autolayout & Interface Builder" 
+                },
+                {
+                    "month": 9,
+                    "day": 26,
+                    "subject": "No Meeting",
+                    "description": "College of Computing Career Fair" 
+                },
+                {
+                    "month": 10,
+                    "day": 3,
+                    "subject": "Shopping List",
+                    "description": "Intro to UITableView" 
+                },
+                {
+                    "month": 10,
+                    "day": 10,
+                    "subject": "No Meeting",
+                    "description": "Fall Break" 
+                },
+                {
+                    "month": 10,
+                    "day": 17,
+                    "subject": "Colors List",
+                    "description": "Intro to Multi-Screen Apps" 
+                },
+                {
+                    "month": 10,
+                    "day": 24,
+                    "subject": "Pin Drop",
+                    "description": "Data Persistence & MapKit" 
+                },
+                {
+                    "month": 10,
+                    "day": 31,
+                    "subject": "Tunes App",
+                    "description": "Networking & JSON Decoding" 
+                },
+                {
+                    "month": 11,
+                    "day": 7,
+                    "subject": "News App",
+                    "description": "Special Challenge" 
+                },
+                {
+                    "month": 11,
+                    "day": 14,
+                    "subject": "Learning",
+                    "description": "Animations" 
+                },
+                {
+                    "month": 11,
+                    "day": 21,
+                    "subject": "No Meeting",
+                    "description": "Thanksgiving Break" 
+                },
+                {
+                    "month": 11,
+                    "day": 28,
+                    "subject": "TBA",
+                    "description": "TBA" 
+                },
+                {
+                    "month": 12,
+                    "day": 5,
+                    "subject": "No Meeting",
+                    "description": "Finals week" 
+                }
+            ]
+        },
+        {
             "semester": "Spring 2017",
             "meetings": [
                 {

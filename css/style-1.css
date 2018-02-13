@@ -52,6 +52,11 @@ body {
 #site-title {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.8);
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    font-size: 1.18rem;
 }
 
 @media (max-width: 500px) {

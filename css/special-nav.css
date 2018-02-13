@@ -20,7 +20,7 @@
     .second-nav-collapsible {
         position: -webkit-sticky;
         position: sticky;
-        top: 56px;
+        top: 54px;
         background: rgb(250, 250, 250);
         z-index: 30;
         max-height: calc(100vh - 57px);
