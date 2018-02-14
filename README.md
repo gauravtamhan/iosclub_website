@@ -55,8 +55,7 @@ This is a stand alone .md file with no further links.
     "semester": "term and year",
     "meetings": [
         {
-            "month": (1 - 12),
-            "day": (1 - 31),
+            "date": "mm/dd",
             "subject": "Either the name of the app or No Meeting if there is no meeting",
             "description": "A description of the concepts being taught. If there is no meeting then a reason for why there is no meeting" 
         }

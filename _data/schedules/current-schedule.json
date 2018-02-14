@@ -2,86 +2,72 @@
     "semester": "Spring 2018",
     "meetings": [
         {
-            "month": 1,
-            "day": 16,
+            "date": "1/16",
             "subject": "Sound Board",
             "description": "Introduction to iOS development" 
         },
         {
-            "month": 1,
-            "day": 23,
+            "date": "1/23",
             "subject": "Guess the Number",
             "description": "Introduction to iOS development" 
         },
         {
-            "month": 1,
-            "day": 30,
+            "date": "1/30",
             "subject": "No Meeting",
             "description": "College of Computing Career Fair" 
         },
         {
-            "month": 2,
-            "day": 6,
+            "date": "2/6",
             "subject": "About Me",
             "description": "Autolayout & Interface Builder" 
         },
         {
-            "month": 2,
-            "day": 13,
+            "date": "2/13",
             "subject": "Reminders",
             "description": "Intro to UITableView" 
         },
         {
-            "month": 2,
-            "day": 20,
+            "date": "2/20",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "month": 2,
-            "day": 27,
+            "date": "2/27",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "month": 3,
-            "day": 6,
+            "date": "3/6",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "month": 3,
-            "day": 13,
+            "date": "3/13",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "month": 3,
-            "day": 20,
+            "date": "3/20",
             "subject": "No Meeting",
             "description": "Spring Break" 
         },
         {
-            "month": 3,
-            "day": 27,
+            "date": "3/27",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "month": 4,
-            "day": 3,
+            "date": "4/3",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "month": 4,
-            "day": 10,
+            "date": "4/10",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "month": 4,
-            "day": 17,
+            "date": "4/17",
             "subject": "Demo Day",
             "description": "Food, Presentations, and Prizes!" 
         }
